@@ -56,7 +56,7 @@ void hallarEdad(int actual[3],int nacer[3],int edad[3])
     {
         if(actual[2]<nacer[2])
             edad[0]--;
-        if(actual[2]>=nacer[2])
+        else if(actual[2]>=nacer[2])
             edad[1] = 0;
         else
             edad[1] = 11;
